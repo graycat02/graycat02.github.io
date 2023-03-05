@@ -47,6 +47,14 @@ div.block{
   min-width: 300px;
 }
 
+div.project{
+  padding: 32px;
+  border-radius: 32px;
+  margin-top: 32px;
+  background: #ddd;
+  width: calc(100% - 64px);
+}
+
 h1{
   margin: 16px;
 }
@@ -54,7 +62,11 @@ h1{
 ul.socialmedia li{
   list-style: none;
   display: inline-block;
+}
+
+ul.socialmedia li a{
   background: #fabada;
-  padding: 16px;
   border-radius: 999px;
+  padding: 16px;
+  margin: 4px;
 }
