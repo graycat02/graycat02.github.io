@@ -2,6 +2,16 @@
 border: 1px solid red;
 */
 
+@font-face {
+  font-family: 'Robo_Girls';
+  src: url("./fonts/Robo_Girls.ttf");
+}
+
+@font-face {
+  font-family: 'White_Milk';
+  src: url("./fonts/White_Milk.otf") format("truetype");
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,6 +22,10 @@ border: 1px solid red;
 
 body{
   background: #ddd;
+}
+
+p{
+  font: 15px monospace;
 }
 
 header{
@@ -57,6 +71,7 @@ div.project{
 
 h1{
   margin: 16px;
+  font-family: 'Robo_Girls';
 }
 
 ul.socialmedia li{
