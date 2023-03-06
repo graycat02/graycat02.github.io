@@ -57,7 +57,7 @@ a{
   text-decoration: none;
 }
 
-div.main{
+main{
   padding-top: 48px;
   text-align: center;
 }
@@ -79,6 +79,19 @@ div.project{
   margin-top: 32px;
   background: #ddd;
   width: calc(100% - 64px);
+}
+
+span.project{
+  padding: 32px;
+  border-radius: 32px;
+  background: #ccc;
+  display: inline-block;
+  width: 192px;
+  /*float: left;*/
+}
+
+span.project img{
+  border-radius: 16px;
 }
 
 h1{
