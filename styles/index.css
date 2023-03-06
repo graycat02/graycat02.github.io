@@ -21,7 +21,7 @@ border: 1px solid red;
 }
 
 body{
-  background: #ddd;
+  background: #1c1e31;
 }
 
 p{
@@ -30,15 +30,27 @@ p{
 
 header{
   width: auto;
-  height: 64px;
-  background: #fabada;
+  align: center;
+  /* height: 64px; */
+  background: #15a0a2;
 }
 
 header li{
     list-style: none;
+    font-weight: bold;
+    font-family: monospace;
     display: inline-block;
-    height: 64px;
-    background: #0008;
+    /* height: 64px; */
+    padding: 12px;
+    margin: 8px;
+    border-radius: 999px;
+    background: #ef5757;
+}
+
+header img{
+  float: right;
+  border-radius: 67px;
+  border: 3px solid #ffe66d;
 }
 
 a{
@@ -54,7 +66,7 @@ div.block{
   padding: 32px;
   margin-bottom: 48px;
   margin-left: calc(20% - 32px);
-  background: white;
+  background: #cad0c8;
   border-radius: 32px;
   width: 60%;
   max-width: 1200px;
@@ -72,6 +84,7 @@ div.project{
 h1{
   margin: 16px;
   font-family: 'Robo_Girls';
+  color: #ef5757;
 }
 
 ul.socialmedia li{
@@ -80,7 +93,7 @@ ul.socialmedia li{
 }
 
 ul.socialmedia li a{
-  background: #fabada;
+  background: #ffe66d;
   border-radius: 999px;
   padding: 16px;
   margin: 4px;
