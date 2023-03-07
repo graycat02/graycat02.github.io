@@ -30,6 +30,10 @@ h1{
   text-decoration: underline;
   color: #ef5757;
 }
+h2{
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
 p{
   margin: 8px 0px;
   font: 15px monospace;
@@ -112,7 +116,7 @@ div.project section{
   width: calc(100% - (192px + 64px + 32px + 64px)); /* image + image block padding + 32px gap + own padding */
   background: #cad0c8;
   padding: 32px;
-  border-radius: 32px;
+  border-radius: 24px;
 }
 
 article{
@@ -161,4 +165,22 @@ footer h3{
 }
 footer h3 i{
   color: #ffe66d;
+}
+
+/* ****************** blog ****************** */
+
+p.tag{
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #15a0a2;
+  display: inline-block;
+  margin: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+span.tags{
+  background: white;
+  border-radius: 999px;
+  display: block;
 }
