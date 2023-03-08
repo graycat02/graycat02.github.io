@@ -1,0 +1,16 @@
+
+p.tag{
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #15a0a2;
+  display: inline-block;
+  margin: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+span.tags{
+  background: white;
+  border-radius: 999px;
+  display: block;
+}
