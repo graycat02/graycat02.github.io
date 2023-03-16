@@ -1,5 +1,6 @@
 
-p.tag{
+h6.tag{
+  font-size: 14px;
   padding: 8px 12px;
   border-radius: 999px;
   background: #15a0a2;
@@ -13,4 +14,18 @@ span.tags{
   background: white;
   border-radius: 999px;
   display: block;
+}
+
+article{
+  padding: 32px;
+  margin-bottom: 48px;
+  margin-left: calc(20% - 32px);
+  background: #cad0c8;
+  border-radius: 32px;
+  width: 60%;
+  max-width: 1200px;
+  min-width: 300px;
+}
+article p{
+  font-family: 'White_Milk';
 }

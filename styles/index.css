@@ -34,10 +34,12 @@ body{
   background: #1c1e31;
   min-height: 100vh;
 }
-h1{
+h1,
+a.h1{
   margin: 16px;
   font-family: monospace;
   font-size: 32px;
+  font-weight: bold;
   text-decoration: underline;
   color: #ef5757;
 }
@@ -81,6 +83,9 @@ header li a{
   border-radius: 999px;
   background: #ef5757;
 }
+header li a.selected{
+  background: #ffe66d;
+}
 header img{
   float: right;
   border-radius: 67px;
@@ -119,25 +124,26 @@ div.project{
 span.project{
   padding: 32px;
   border-radius: 24px;
-  background: #cad0c8;
+  background: #e5e5e5;
   display: inline-block;
   width: 192px;
   /*float: left;*/
 }
 span.project img{
   border-radius: 16px;
+  border: 4px solid #cad0c8;
   background: black;
   margin-bottom: 8px
 }
-div.project section{
+div.block section{
   float: right;
   width: calc(100% - (192px + 64px + 32px + 64px)); /* image + image block padding + 32px gap + own padding */
-  background: #cad0c8;
+  background: #e5e5e5;
   padding: 32px;
   border-radius: 24px;
 }
 
-article{
+div.goal{
   background: #e5e5e5;
   padding: 12px 24px;
   margin-top: 16px;
