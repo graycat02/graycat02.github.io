@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="graycat02">
+  <meta name="robots" content="nofollow">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="nocache">
+  <meta name="robots" content="noimageindex">
+  <title>graycat02 - mejoras para Xiaomi Mi 1S</title>
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/projects.css">
+</head>
+<body>
+  <header>
+    <img src="../images/perfil.png" alt="perfil" height="128px" width="128px">
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../projects.html">Proyectos</a></li>
+      <li><a href="../blog.html">Blog</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="block" style="background: white;">
+      <h1>Mejoras para Xiaomi Mi 1S</h1>
+      <p>Aquí iré subiendo algunas mejoras que haga a mi patinete eléctrico. Quiero modificar su firmware, comportamiento dinámico, apariencia, resistencia al agua y temperaturas, y algunas otras cosas.</p>
+    </div>
+    <!-- // add new entries here // -->
+    <div class="block">
+      <h1>Antes de nada: desmontar el patinete</h1>
+      <h2>2-abr-2023</h2>
+      <p>El desmontaje del patinete no es difícil. Para las partes electrónicas (lo que me interesa por ahora), empecé quitando la placa trasera. Aquí podemos acceder a la batería, el puerto de carga y el controlador. También podemos encontrar algo de espacio donde se colocará el ESP32.</p>
+      <!-- imagen de abajo del patinete -->
+      <p>El siguiente paso fue quitar la tapa de la pantalla. Está pegada al chasis, por lo que se puede quitar más fácilmente usando calor (un simple secador de pelo nos servirá). Entonces podemos acceder a la placa del salpicadero y a los tornillos de la luz.</p>
+      <!-- imagen placa pantalla -->
+      <p>La placa de la pantalla usa 4 cables: el rojo da 5V cuando el scooter está encendido, el verde da tensión directa de la batería (alrededor de 36v), incluso si el scooter está apagado, el cable amarillo se utiliza para la transmisión de datos entre el tablero de instrumentos y la ECU, y el cable negro es para tierra (GND).</p>
+      <!-- imagen placa pantalla por debajo -->
+      <p>Los cables superiores de la placa son para los componentes del manillar: faro, sensor de acelerador y de la maneta de freno. La luz funciona a 5V. Por ahora, voy a utilizar esta señal para detectar cuando mis luces añadidas deben encenderse.</p>
+      <p>Debajo del faro podemos acceder a los tornillos para desmontar el manillar, pero por ahora no será necesario.</p>
+    </div>
+  </main>
+  <footer>
+    <h3>Hecho por <i>graycat02</i> - 2023</h3>
+  </footer>
+</body>
+</html>
