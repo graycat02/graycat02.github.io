@@ -83,8 +83,17 @@ header li a{
   border-radius: 999px;
   background: #ef5757;
 }
+header li a:hover{
+  color: white;
+}
 header li a.selected{
   background: #ffe66d;
+}
+header li a.selected:hover{
+  color: #15a0a2;
+}
+header li a.lang{
+
 }
 header img{
   float: right;
@@ -121,6 +130,9 @@ div.project{
   background: #e5e5e5;
   width: calc(100% - 64px);
 }
+div.project a:hover{
+  text-decoration: underline;
+}
 span.project{
   padding: 32px;
   border-radius: 24px;
@@ -134,6 +146,10 @@ span.project img{
   border: 4px solid #cad0c8;
   background: black;
   margin-bottom: 8px
+}
+span.project a:hover{
+  /* font-style: italic; */
+  text-decoration: underline;
 }
 div.block section{
   float: right;
@@ -176,6 +192,9 @@ ul.socialmedia li a{
   font-weight: bold;
   font-size: 15px;
 }
+ul.socialmedia li a:hover{
+  color: #15a0a2;
+}
 
 footer{
   width: auto;
@@ -190,4 +209,7 @@ footer h3{
 footer h3 i{
   font-family: "White_Milk";
   color: #ffe66d;
+}
+footer h3 i:hover{
+  color: white;
 }
