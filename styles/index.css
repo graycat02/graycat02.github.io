@@ -34,6 +34,9 @@ body{
   background: #1c1e31;
   min-height: 100vh;
 }
+h1{
+  cursor: default;
+}
 h1,
 a.h1{
   margin: 16px;
@@ -53,6 +56,11 @@ h2{
   margin: 24px 32px;
   font-size: 36px;
   float: right;
+}
+.name:hover{
+  transition-duration: 5s;
+  color: white;
+  cursor: default;
 }
 p{
   margin: 8px 0px;
@@ -84,12 +92,14 @@ header li a{
   background: #ef5757;
 }
 header li a:hover{
+  transition-duration: 0.4s;
   color: white;
 }
 header li a.selected{
   background: #ffe66d;
 }
 header li a.selected:hover{
+  transition-duration: 0.4s;
   color: #15a0a2;
 }
 header li a.lang{
@@ -191,6 +201,7 @@ ul.socialmedia li a{
   padding: 16px 20px;
   font-weight: bold;
   font-size: 15px;
+  transition-duration: 0.4s;
 }
 ul.socialmedia li a:hover{
   color: #15a0a2;
@@ -202,11 +213,14 @@ footer{
   padding: 16px 24px;
   border-bottom: 8px solid #ef5757;
   border-top-left-radius: 16px;
+  cursor: default;
 }
 footer h3{
   color: #ffe66d;
 }
 footer h3 i{
+  transition-duration: 2s;
+  font-size: 24px;
   font-family: "White_Milk";
   color: #ffe66d;
 }
