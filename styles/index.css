@@ -103,7 +103,12 @@ header li a.selected:hover{
   color: #15a0a2;
 }
 header li a.lang{
-
+  background: none;
+}
+header li a.lang.hover{
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #ef5757;
+  color: white;
 }
 header img{
   float: right;
