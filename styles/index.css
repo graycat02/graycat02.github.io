@@ -102,13 +102,32 @@ header li a.selected:hover{
   transition-duration: 0.4s;
   color: #15a0a2;
 }
-header li a.lang{
+/* header li a.lang{
   background: none;
 }
 header li a.lang.hover{
   background: rgba(0, 0, 0, 0.2);
   border: 2px solid #ef5757;
   color: white;
+} */
+.lang{
+  /* font-family: 'White_Milk'; */
+  font-size: 16px;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: 2px solid white;
+  padding: 16px;
+  border-radius: 999px;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}
+.lang:hover{
+  /* transition-duration: 0.4s; */
+  /* color: black; */
+  /* background: white; */
+  background: black;
 }
 header img{
   float: right;
